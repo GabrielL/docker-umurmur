@@ -1,0 +1,11 @@
+channels = (
+	{ name = "root"; parent = ""; noenter = true; },
+	{ name = "lobby"; parent = "root"; },
+	{ name = "rooms"; parent = "root"; },
+	{ name = "1"; parent = "rooms"; },
+	{ name = "2"; parent = "rooms"; }
+)
+
+default_channel = "lobby"
+
+password = "{{ getv "/umurmur/password" }}"

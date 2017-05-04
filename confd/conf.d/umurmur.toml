@@ -1,0 +1,7 @@
+[template]
+src = "umurmur.conf.tmpl"
+dest = "/umurmur.conf"
+
+keys = [
+	"/umurmur/password",
+]
